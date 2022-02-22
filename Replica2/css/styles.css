@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color:#ffffff;
+}
+
+.logo p{
+    color: #637a89;
+    font-size: 25px;
+    margin-left: -245px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    float: right;
+    
+}
+
+.menu1{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu2{
+       display: inline;
+       font-family: 'Roboto', sans-serif;
+    
+}
+
+.menu3{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu4{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.menu5{
+ display: inline;
+ font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-right: -215px;
+}
+
+.logo{
+    flex-grow: 5;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.header .navigation .nav{
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.link1{
+    color:  #637a89;
+    padding: 10px  15px;
+    display: inline-block;
+}
+
+.link2{
+    color: #637a89;
+    display: inline-block;
+}
+
+.link3{
+    color:  #637a89;
+    padding: 10px  15px;
+    display: inline-block;
+}
+
+.link4{
+    color:  #637a89;
+    padding: 10px  15px;
+    display: inline-block;
+}
+
+.link5{
+    color: #637a89;
+    display: inline-block;
+}
+
+.header .container{
+    width: 900px;
+    margin: 0 17%;
+    height: 50px !important;
+}
+
+.fa-tachometer-alt{
+    padding: 10px  15px;
+}
+
+.container-main{
+    width: 100%;
+    margin: 0;
+    height:85vh;
+    background-color: #f4f6f9;
+}
+
+
+.container-folders{
+    width: 97%;
+    height: 100%;
+    background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.container-title-folders p{
+    color: #637a89;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 10px;
+}
+
+#subtitle1{
+    color: #cbbcc3;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    height: 20px;
+    border-bottom: 0.5px inset #dee1e7;
+}
+
+.container-button-tools{
+    margin-top: 10px;
+}
+
+#button-total-ticket{
+    width: 305px;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color: #1f8be2;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+
+#button-responded{
+    width: 305px;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color: #26c3dc;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+#button-resolve{
+    width: 305px;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color: #fc4c6c;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+#button-pending{
+    width: 305px;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color: #435262;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+.container-table table{
+    margin-top: 30px;
+    margin-left: 15px;
+    border-collapse: collapse;
+    width: 97.5%;
+    font-family: 'Roboto', sans-serif;
+    color: #435363;
+    font-size: 12px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #button-new{
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color:#FFAC33;
+    border-radius: 4px;
+}
+
+.fa-trash-alt{
+    color: red;
+}
+
+#button-trash{
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid red;
+}
+
+#button-complete{
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    color: #ffffff;
+    background-color: #24c3dc;
+    border-radius: 4px;
+}
+
